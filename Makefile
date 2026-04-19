@@ -6,7 +6,7 @@
 #    By: ksaotome <ksaotome@student.42.ja>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/04/19 19:37:57 by ksaotome          #+#    #+#              #
-#    Updated: 2026/04/19 21:17:18 by ksaotome         ###   ########.fr        #
+#    Updated: 2026/04/20 01:23:34 by ksaotome         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -35,6 +35,9 @@ $(NAME_A): $(OBJS)
 $(OUTDIR)/%.o: %.c
 	@mkdir -p $(@D)
 	$(CC) $(CFLAGS) $(CPPFLAGS) -c $< -o $@
+
+test: $(NAME_A)
+	$(CC) $(CFLAGS) test.c -L. -lft -o test_out && ./test_out
 
 clean:
 	$(RM) $(RMFLAGS) $(OUTDIR)
