@@ -1,20 +1,46 @@
-NAME    = program
-CC      = cc
-CFLAGS  = -Wall -Wextra -Werror
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: ksaotome <ksaotome@student.42.ja>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2026/04/19 19:37:57 by ksaotome          #+#    #+#              #
+#    Updated: 2026/04/19 21:17:18 by ksaotome         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
 
-SRCS    = $(wildcard src/*.c)
-OBJS    = $(SRCS:.c=.o)
+NAME		:= libft
+NAME_A		:=$(NAME).a
 
-all: $(NAME)
+CC			:= cc
+CFLAGS		:= -Wall -Wextra -Werror
+CFLAGS		+= -fno-builtin
+CPPFLAGS	:= -I.
+AR			:= ar
+ARFLAGS		:= rcs
+RM			:= rm
+RMFLAGS		:= -rf
 
-$(NAME): $(OBJS)
-	$(CC) $(CFLAGS) -o $(NAME) $(OBJS)
+SRCS		:= $(wildcard *.c)
+
+OUTDIR		:= .out
+OBJS 		:= $(addprefix $(OUTDIR)/, $(SRCS:.c=.o))
+
+all: $(NAME_A)
+
+$(NAME_A): $(OBJS)
+	$(AR) $(ARFLAGS) $@ $^
+
+$(OUTDIR)/%.o: %.c
+	@mkdir -p $(@D)
+	$(CC) $(CFLAGS) $(CPPFLAGS) -c $< -o $@
 
 clean:
-	rm -f $(OBJS)
+	$(RM) $(RMFLAGS) $(OUTDIR)
 
 fclean: clean
-	rm -f $(NAME)
+	$(RM) $(NAME_A)
 
 re: fclean all
 
