@@ -22,17 +22,17 @@ int	ft_isalpha(int c)
 	return (flag);
 }
 
-
 #include <stdio.h>
+
 int	main(void)
 {
-    char c1 = 'a';
-    char c2 = 'Z';
-    char c3 = '1';
+	char c1 = 'a';
+	char c2 = 'Z';
+	char c3 = '1';
 
-    printf("%d\n", ft_isalpha(c1)); // 1
-    printf("%d\n", ft_isalpha(c2)); // 1
-    printf("%d\n", ft_isalpha(c3)); // 0
+	printf("%d\n", ft_isalpha(c1)); // 1
+	printf("%d\n", ft_isalpha(c2)); // 1
+	printf("%d\n", ft_isalpha(c3)); // 0
 
-    return 0;
+	return (0);
 }
