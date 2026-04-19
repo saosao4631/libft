@@ -33,5 +33,5 @@ int	ft_isdigit(int c)
 //     printf("%d\n", ft_isdigit(c2)); // 0
 //     printf("%d\n", ft_isdigit(c3)); // 1
 
-//     return 0;
+//     return (0);
 // }

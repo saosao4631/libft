@@ -23,17 +23,18 @@ int	ft_isalnum(int c)
 }
 
 #include <stdio.h>
+
 int	main(void)
 {
-    char c1 = 'a';
-    char c2 = 'Z';
-    char c3 = '1';
-    char c4 = '@';
+	char c1 = 'a';
+	char c2 = 'Z';
+	char c3 = '1';
+	char c4 = '@';
 
-    printf("%d\n", ft_isalnum(c1)); // 1
-    printf("%d\n", ft_isalnum(c2)); // 1
-    printf("%d\n", ft_isalnum(c3)); // 1
-    printf("%d\n", ft_isalnum(c4)); // 0
+	printf("%d\n", ft_isalnum(c1)); // 1
+	printf("%d\n", ft_isalnum(c2)); // 1
+	printf("%d\n", ft_isalnum(c3)); // 1
+	printf("%d\n", ft_isalnum(c4)); // 0
 
-    return 0;
+	return (0);
 }
