@@ -33,5 +33,5 @@ int	ft_isalpha(int c)
 //     printf("%d\n", ft_isalpha(c2)); // 1
 //     printf("%d\n", ft_isalpha(c3)); // 0
 
-//     return 0;
+//     return (0);
 // }
