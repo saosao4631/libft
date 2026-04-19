@@ -1,15 +1,3 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    Makefile                                           :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: ksaotome <ksaotome@student.42.ja>          +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2026/04/19 19:37:57 by ksaotome          #+#    #+#              #
-#    Updated: 2026/04/20 01:23:34 by ksaotome         ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
-
 NAME		:= libft
 NAME_A		:=$(NAME).a
 
@@ -25,7 +13,7 @@ RMFLAGS		:= -rf
 SRCS		:= $(wildcard *.c)
 
 OUTDIR		:= .out
-OBJS 		:= $(addprefix $(OUTDIR)/, $(SRCS:.c=.o))
+OBJS		:= $(addprefix $(OUTDIR)/, $(SRCS:.c=.o))
 
 all: $(NAME_A)
 

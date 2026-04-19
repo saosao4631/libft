@@ -3,4 +3,4 @@ CompileFlags:
     - -Wall
     - -Wextra
     - -Werror
-    - -I./inc
+    - -I.
