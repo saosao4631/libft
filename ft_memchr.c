@@ -6,7 +6,7 @@
 /*   By: ksaotome <ksaotome@student.42.ja>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 23:10:03 by ksaotome          #+#    #+#             */
-/*   Updated: 2026/04/20 23:10:44 by ksaotome         ###   ########.fr       */
+/*   Updated: 2026/04/21 00:04:04 by ksaotome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {
-	const unsigned char *str;
+	const unsigned char	*str;
 
 	str = (const unsigned char *)s;
 	while (n > 0)

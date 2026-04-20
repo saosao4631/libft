@@ -6,7 +6,7 @@
 /*   By: ksaotome <ksaotome@student.42.ja>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 21:39:28 by ksaotome          #+#    #+#             */
-/*   Updated: 2026/04/20 21:54:12 by ksaotome         ###   ########.fr       */
+/*   Updated: 2026/04/21 00:04:32 by ksaotome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 void	*ft_memmove(void *dst, const void *src, size_t len)
 {
-	unsigned char *d;
-	const unsigned char *s;
+	unsigned char		*d;
+	const unsigned char	*s;
 
 	d = (unsigned char *)dst;
 	s = (unsigned char *)src;

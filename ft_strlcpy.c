@@ -6,7 +6,7 @@
 /*   By: ksaotome <ksaotome@student.42.ja>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 21:54:53 by ksaotome          #+#    #+#             */
-/*   Updated: 2026/04/20 21:54:59 by ksaotome         ###   ########.fr       */
+/*   Updated: 2026/04/21 00:06:09 by ksaotome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 {
-	size_t i;
+	size_t	i;
 
 	if (dstsize == 0)
 		return (ft_strlen(src));

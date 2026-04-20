@@ -6,7 +6,7 @@
 /*   By: ksaotome <ksaotome@student.42.ja>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 21:33:00 by ksaotome          #+#    #+#             */
-/*   Updated: 2026/04/20 21:40:11 by ksaotome         ###   ########.fr       */
+/*   Updated: 2026/04/21 00:05:54 by ksaotome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)
 {
-	size_t i;
-	unsigned char *dest;
-	const unsigned char *source;
+	size_t				i;
+	unsigned char		*dest;
+	const unsigned char	*source;
 
 	if (!dst && !src)
 		return (NULL);
