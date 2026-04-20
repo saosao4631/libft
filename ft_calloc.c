@@ -14,7 +14,7 @@
 
 void	*ft_calloc(size_t count, size_t size)
 {
-	void	*ptr;
+	void *ptr;
 
 	if (count && size > SIZE_MAX / count)
 		return (NULL);
