@@ -14,7 +14,7 @@
 
 void	ft_putstr_fd(char *s, int fd)
 {
-	sisze_t	len;
+	sisze_t len;
 
 	if (!s)
 		return ;

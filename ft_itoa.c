@@ -33,9 +33,9 @@ static int	count_num(int n)
 
 char	*ft_itoa(int n)
 {
-	char	*str;
-	int		len;
-	long	num;
+	char *str;
+	int len;
+	long num;
 
 	num = n;
 	len = count_num(n);
