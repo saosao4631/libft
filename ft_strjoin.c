@@ -6,7 +6,7 @@
 /*   By: ksaotome <ksaotome@student.42.ja>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/22 12:28:10 by ksaotome          #+#    #+#             */
-/*   Updated: 2026/04/22 12:36:27 by ksaotome         ###   ########.fr       */
+/*   Updated: 2026/04/22 13:49:52 by ksaotome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {
-	char *res;
-	size_t len1;
-	size_t len2;
+	char	*res;
+	size_t	len1;
+	size_t	len2;
 
 	if (!s1 || !s2)
 		return (NULL);

@@ -6,7 +6,7 @@
 /*   By: ksaotome <ksaotome@student.42.ja>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/22 13:24:52 by ksaotome          #+#    #+#             */
-/*   Updated: 2026/04/22 13:40:14 by ksaotome         ###   ########.fr       */
+/*   Updated: 2026/04/22 13:51:04 by ksaotome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {
-	unsigned int i;
+	unsigned int	i;
 
 	if (!s || !f)
 		return ;

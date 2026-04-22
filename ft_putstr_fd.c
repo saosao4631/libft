@@ -6,7 +6,7 @@
 /*   By: ksaotome <ksaotome@student.42.ja>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/22 13:37:20 by ksaotome          #+#    #+#             */
-/*   Updated: 2026/04/22 13:37:56 by ksaotome         ###   ########.fr       */
+/*   Updated: 2026/04/22 13:53:25 by ksaotome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_putstr_fd(char *s, int fd)
 {
-	sisze_t len;
+	size_t	len;
 
 	if (!s)
 		return ;

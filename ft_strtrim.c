@@ -6,7 +6,7 @@
 /*   By: ksaotome <ksaotome@student.42.ja>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/22 12:39:11 by ksaotome          #+#    #+#             */
-/*   Updated: 2026/04/22 12:41:02 by ksaotome         ###   ########.fr       */
+/*   Updated: 2026/04/22 13:54:17 by ksaotome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 char	*ft_strtrim(char const *s1, char const *set)
 {
-	char *trim;
-	size_t i;
-	size_t j;
+	char	*trim;
+	size_t	i;
+	size_t	j;
 
 	if (!s1 || !set)
 		return (NULL);
