@@ -31,8 +31,8 @@ clean:
 	$(RM) $(RMFLAGS) $(OUTDIR)
 
 fclean: clean
-	$(RM) $(NAME_A)
+	$(RM) -f $(NAME_A)
 
 re: fclean all
 
-.PHONY: all clean fclean re
+.PHONY: all test clean fclean re
