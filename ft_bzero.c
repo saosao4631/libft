@@ -33,8 +33,6 @@ void	ft_bzero(void *s, size_t n)
 // {
 // 	char str[50] = "Hello, World!";
 
-
-
 // 	char buf1[20] = "Hello, World!";
 // 	char buf2[20] = "Hello, World!";
 // 	ft_bzero(buf1, 20);
@@ -42,5 +40,5 @@ void	ft_bzero(void *s, size_t n)
 // 	printf("ft_bzeroの場合: %s\n", buf1);
 // 	printf("bzeroの場合: %s\n", buf2);
 
-// 	return 0;
+// 	return (0);
 // }
