@@ -56,11 +56,11 @@ void	*ft_calloc(size_t count, size_t size)
 //     printf("自作: %s (NULLになるのが大正解！)\n",
 	over_ft == NULL ? "NULL" : "確保されちゃった");
 
-//     // 後片付け
-//     free(arr_ft);
-//     free(arr_std);
-//     free(zero_ft);
-//     free(zero_std);
+	//     // 後片付け
+	//     free(arr_ft);
+	//     free(arr_std);
+	//     free(zero_ft);
+	//     free(zero_std);
 
-//     return (0);
-// }
+	//     return (0);
+	// }
