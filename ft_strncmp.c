@@ -41,5 +41,5 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 // 	printf("ft_strncmp: %i\n", ft_strncmp(s1, s1, 6));
 // 	printf("本家: %i\n\n", strncmp(s1, s1, 6));
 
-// 	return 0;
+// 	return (0);
 // }

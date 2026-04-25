@@ -48,5 +48,5 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 // 	char	dst4[8] = "Hello,";
 // 	printf("結果: %zu\n%s\n", ft_strlcat(dst4, src, 3), dst4);
 
-// 	return 0;
+// 	return (0);
 // }

@@ -58,5 +58,5 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 //     printf("ft_memmoveの結果: %s\n", str_mov2);
 //     printf("本家memmove の結果: %s\n", str_std2);
 
-//     return 0;
+//     return (0);
 // }
