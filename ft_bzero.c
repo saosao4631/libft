@@ -49,5 +49,5 @@ void	ft_bzero(void *s, size_t n)
 // 	printf("ft_bzeroの場合: %s\n", buf3);
 // 	printf("bzeroの場合: %s\n", buf4);
 
-// 	return 0;
+// 	return (0);
 // }

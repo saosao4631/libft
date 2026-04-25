@@ -47,5 +47,5 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 // 	printf("自作: %i\n", ft_memcmp(s1, s2, 0));
 // 	printf("本家: %i\n\n", memcmp(s1, s2, 0));
 
-// 	return 0;
+// 	return (0);
 // }

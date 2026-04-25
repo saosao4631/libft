@@ -29,5 +29,5 @@ int	ft_toupper(int c)
 // 		printf("%c\n", ft_toupper(c[i]));
 // 		i++;
 // 	}
-// 	return 0;
+// 	return (0);
 // }
