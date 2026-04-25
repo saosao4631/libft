@@ -6,7 +6,7 @@
 /*   By: ksaotome <ksaotome@student.42.ja>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 21:30:58 by ksaotome          #+#    #+#             */
-/*   Updated: 2026/04/20 21:32:37 by ksaotome         ###   ########.fr       */
+/*   Updated: 2026/04/25 11:21:31 by ksaotome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,4 +27,20 @@ void	ft_bzero(void *s, size_t n)
 // void	ft_bzero(void *s, size_t n)
 // {
 // 	ft_memset(s, 0, n);
+// }
+
+// int main(void)
+// {
+// 	char str[50] = "Hello, World!";
+
+
+
+// 	char buf1[20] = "Hello, World!";
+// 	char buf2[20] = "Hello, World!";
+// 	ft_bzero(buf1, 20);
+// 	bzero(buf2, 20);
+// 	printf("ft_bzeroの場合: %s\n", buf1);
+// 	printf("bzeroの場合: %s\n", buf2);
+
+// 	return 0;
 // }

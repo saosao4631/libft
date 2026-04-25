@@ -6,7 +6,7 @@
 /*   By: ksaotome <ksaotome@student.42.ja>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/19 23:18:33 by ksaotome          #+#    #+#             */
-/*   Updated: 2026/04/19 23:19:28 by ksaotome         ###   ########.fr       */
+/*   Updated: 2026/04/25 10:48:52 by ksaotome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@
 # include <stdlib.h>
 # include <string.h>
 # include <unistd.h>
+# include <stdio.h>
 
 // ft_ctype
 int					ft_isalpha(int c);
