@@ -35,12 +35,12 @@ void	*ft_calloc(size_t count, size_t size)
 
 //     int *arr_ft = (int *)ft_calloc(5, sizeof(int));
 //     int *arr_std = (int *)calloc(5, sizeof(int));
-    
+
 //     int is_zero = 1;
 // 	int i = 0;
 //     while(i < 5)
 // 	{
-//         if (arr_ft[i] != 0) 
+//         if (arr_ft[i] != 0)
 // 			is_zero = 0;
 // 		i++;
 //     }
@@ -53,7 +53,8 @@ void	*ft_calloc(size_t count, size_t size)
 //     printf("本家: %p (NULLではないはず)\n\n", zero_std);
 
 //     void *over_ft = ft_calloc(SIZE_MAX, SIZE_MAX);
-//     printf("自作: %s (NULLになるのが大正解！)\n", over_ft == NULL ? "NULL" : "確保されちゃった");
+//     printf("自作: %s (NULLになるのが大正解！)\n",
+	over_ft == NULL ? "NULL" : "確保されちゃった");
 
 //     // 後片付け
 //     free(arr_ft);
@@ -61,5 +62,5 @@ void	*ft_calloc(size_t count, size_t size)
 //     free(zero_ft);
 //     free(zero_std);
 
-//     return 0;
+//     return (0);
 // }
