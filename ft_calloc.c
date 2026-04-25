@@ -6,7 +6,7 @@
 /*   By: ksaotome <ksaotome@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 23:21:20 by ksaotome          #+#    #+#             */
-/*   Updated: 2026/04/25 20:40:55 by ksaotome         ###   ########.fr       */
+/*   Updated: 2026/04/25 21:35:33 by ksaotome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ void	*ft_calloc(size_t count, size_t size)
 
 //     int *arr_ft = (int *)ft_calloc(5, sizeof(int));
 //     int *arr_std = (int *)calloc(5, sizeof(int));
-    
+
 //     int is_zero = 1;
 // 	int i = 0;
 //     while(i < 5)
