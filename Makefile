@@ -24,9 +24,6 @@ $(OUTDIR)/%.o: %.c
 	@mkdir -p $(@D)
 	$(CC) $(CFLAGS) $(CPPFLAGS) -c $< -o $@
 
-test: $(NAME_A)
-	$(CC) $(CFLAGS) test.c -L. -lft -o test_out && ./test_out
-
 clean:
 	$(RM) $(RMFLAGS) $(OUTDIR)
 

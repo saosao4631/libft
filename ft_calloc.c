@@ -6,7 +6,7 @@
 /*   By: ksaotome <ksaotome@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 23:21:20 by ksaotome          #+#    #+#             */
-/*   Updated: 2026/04/26 15:40:52 by ksaotome         ###   ########.fr       */
+/*   Updated: 2026/04/26 18:48:38 by ksaotome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,9 @@ void	*ft_calloc(size_t count, size_t size)
 	void	*ptr;
 	size_t	t;
 
-	t = count * size;
 	if (count && size > SIZE_MAX / count)
 		return (NULL);
+	t = count * size;
 	if (t == 0)
 		t = 1;
 	ptr = malloc(t);
