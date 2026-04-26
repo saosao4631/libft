@@ -3,18 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ksaotome <ksaotome@student.42.ja>          +#+  +:+       +#+        */
+/*   By: ksaotome <ksaotome@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/22 13:00:52 by ksaotome          #+#    #+#             */
-/*   Updated: 2026/04/22 13:53:50 by ksaotome         ###   ########.fr       */
+/*   Updated: 2026/04/26 14:16:32 by ksaotome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int	count_num(int n);
+static int	count_num(long n);
 
-static int	count_num(int n)
+static int	count_num(long n)
 {
 	int	cnt;
 
@@ -38,7 +38,7 @@ char	*ft_itoa(int n)
 	long	num;
 
 	num = n;
-	len = count_num(n);
+	len = count_num(num);
 	str = (char *)malloc(len + 1);
 	if (!str)
 		return (NULL);
@@ -48,13 +48,13 @@ char	*ft_itoa(int n)
 		str[0] = '-';
 		num *= -1;
 	}
-	else if (num == 0)
+	if (num == 0)
 		str[0] = '0';
-	while (num)
+	while (num > 0)
 	{
-		str[len] = (num % 10) + '0';
-		--len;
+		str[len - 1] = (num % 10) + '0';
 		num /= 10;
+		len--;
 	}
 	return (str);
 }

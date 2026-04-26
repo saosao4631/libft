@@ -6,7 +6,7 @@
 /*   By: ksaotome <ksaotome@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 23:21:20 by ksaotome          #+#    #+#             */
-/*   Updated: 2026/04/25 21:35:33 by ksaotome         ###   ########.fr       */
+/*   Updated: 2026/04/26 14:02:58 by ksaotome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ void	*ft_calloc(size_t count, size_t size)
 // 	int i = 0;
 //     while(i < 5)
 // 	{
-//         if (arr_ft[i] != 0)
+//         if (arr_ft[i] != 0) 
 // 			is_zero = 0;
 // 		i++;
 //     }
@@ -49,18 +49,16 @@ void	*ft_calloc(size_t count, size_t size)
 
 //     void *zero_ft = ft_calloc(0, 5);
 //     void *zero_std = calloc(0, 5);
-//     printf("自作: %p (NULLではないはず)\n", zero_ft);
-//     printf("本家: %p (NULLではないはず)\n\n", zero_std);
+//     printf("自作: %p \n", zero_ft);
+//     printf("本家: %p\n\n", zero_std);
 
 //     void *over_ft = ft_calloc(SIZE_MAX, SIZE_MAX);
-//     printf("自作: %s (NULLになるのが大正解！)\n",
-	over_ft == NULL ? "NULL" : "確保されちゃった");
+//     printf("自作: %s\n", over_ft == NULL ? "NULL" : "NOT NULL");
 
-//     // 後片付け
 //     free(arr_ft);
 //     free(arr_std);
 //     free(zero_ft);
 //     free(zero_std);
 
-//     return (0);
+//     return 0;
 // }

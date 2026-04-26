@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ksaotome <ksaotome@student.42.ja>          +#+  +:+       +#+        */
+/*   By: ksaotome <ksaotome@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/22 12:43:00 by ksaotome          #+#    #+#             */
-/*   Updated: 2026/04/22 13:52:29 by ksaotome         ###   ########.fr       */
+/*   Updated: 2026/04/26 14:29:19 by ksaotome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,10 +72,10 @@ static char	**fill_split(char **split, char const *s, char c)
 	j = 0;
 	while (s[i])
 	{
-		if (!s[i])
-			break ;
 		while (s[i] && s[i] == c)
 			i++;
+		if (!s[i])
+			break ;
 		split[j] = dup_word(&s[i], c);
 		if (!split[j])
 			return (free_split(split, j));
