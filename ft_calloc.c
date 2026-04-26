@@ -55,6 +55,7 @@ void	*ft_calloc(size_t count, size_t size)
 //     void *over_ft = ft_calloc(SIZE_MAX, SIZE_MAX);
 //     printf("自作: %s\n", over_ft == NULL ? "NULL" : "NOT NULL");
 
+<<<<<<< HEAD
 //     free(arr_ft);
 //     free(arr_std);
 //     free(zero_ft);
@@ -62,3 +63,13 @@ void	*ft_calloc(size_t count, size_t size)
 
 //     return 0;
 // }
+=======
+	//     // 後片付け
+	//     free(arr_ft);
+	//     free(arr_std);
+	//     free(zero_ft);
+	//     free(zero_std);
+
+	//     return (0);
+	// }
+>>>>>>> bc254282c47f2f3ca50ab76c828b5303f68830f3
