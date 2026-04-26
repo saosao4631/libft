@@ -6,7 +6,7 @@
 /*   By: ksaotome <ksaotome@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 23:21:20 by ksaotome          #+#    #+#             */
-/*   Updated: 2026/04/26 14:02:58 by ksaotome         ###   ########.fr       */
+/*   Updated: 2026/04/26 15:40:52 by ksaotome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,6 @@ void	*ft_calloc(size_t count, size_t size)
 //     void *over_ft = ft_calloc(SIZE_MAX, SIZE_MAX);
 //     printf("自作: %s\n", over_ft == NULL ? "NULL" : "NOT NULL");
 
-<<<<<<< HEAD
 //     free(arr_ft);
 //     free(arr_std);
 //     free(zero_ft);
@@ -63,13 +62,3 @@ void	*ft_calloc(size_t count, size_t size)
 
 //     return (0);
 // }
-=======
-//     // 後片付け
-//     free(arr_ft);
-//     free(arr_std);
-//     free(zero_ft);
-//     free(zero_std);
-
-//     return (0);
-// }
->>>>>>> bc254282c47f2f3ca50ab76c828b5303f68830f3
