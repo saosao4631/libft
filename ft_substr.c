@@ -36,42 +36,51 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 //     char *result;
 
 //     result = ft_substr("Hello, World!", 0, 5);
-//     printf("[%s] 通常 => \"%s\"\n", strcmp(result, "Hello") == 0 ? "OK" : "NG", result);
+//     printf("[%s] 通常 => \"%s\"\n", strcmp(result, "Hello") == 0 ? "OK" : "NG",
+	result);
 //     free(result);
 
 //     result = ft_substr("Hello, World!", 7, 5);
-//     printf("[%s] 途中から => \"%s\"\n", strcmp(result, "World") == 0 ? "OK" : "NG", result);
+//     printf("[%s] 途中から => \"%s\"\n", strcmp(result,
+		"World") == 0 ? "OK" : "NG", result);
 //     free(result);
 
 //     result = ft_substr("Hello", 1, 1);
-//     printf("[%s] 1文字 => \"%s\"\n", strcmp(result, "e") == 0 ? "OK" : "NG", result);
+//     printf("[%s] 1文字 => \"%s\"\n", strcmp(result, "e") == 0 ? "OK" : "NG",
+	result);
 //     free(result);
 
 //     result = ft_substr("Hello", 0, 100);
-//     printf("[%s] lenが長すぎる => \"%s\"\n", strcmp(result, "Hello") == 0 ? "OK" : "NG", result);
+//     printf("[%s] lenが長すぎる => \"%s\"\n", strcmp(result,
+		"Hello") == 0 ? "OK" : "NG", result);
 //     free(result);
 
 //     result = ft_substr("Hello", 3, 100);
-//     printf("[%s] startからlenが超過 => \"%s\"\n", strcmp(result, "lo") == 0 ? "OK" : "NG", result);
+//     printf("[%s] startからlenが超過 => \"%s\"\n", strcmp(result,
+		"lo") == 0 ? "OK" : "NG", result);
 //     free(result);
 
 //     result = ft_substr("Hello", 5, 3);
-//     printf("[%s] startが末尾 => \"%s\"\n", strcmp(result, "") == 0 ? "OK" : "NG", result);
+//     printf("[%s] startが末尾 => \"%s\"\n", strcmp(result,
+		"") == 0 ? "OK" : "NG", result);
 //     free(result);
 
 //     result = ft_substr("Hello", 99, 3);
-//     printf("[%s] startが範囲外 => \"%s\"\n", strcmp(result, "") == 0 ? "OK" : "NG", result);
+//     printf("[%s] startが範囲外 => \"%s\"\n", strcmp(result,
+		"") == 0 ? "OK" : "NG", result);
 //     free(result);
 
 //     result = ft_substr("Hello", 0, 0);
-//     printf("[%s] len=0 => \"%s\"\n", strcmp(result, "") == 0 ? "OK" : "NG", result);
+//     printf("[%s] len=0 => \"%s\"\n", strcmp(result, "") == 0 ? "OK" : "NG",
+	result);
 //     free(result);
 
 //     result = ft_substr(NULL, 0, 5);
 //     printf("[%s] s=NULL\n", result == NULL ? "OK" : "NG");
 
 //     result = ft_substr("", 0, 5);
-//     printf("[%s] s=空文字列 => \"%s\"\n", strcmp(result, "") == 0 ? "OK" : "NG", result);
+//     printf("[%s] s=空文字列 => \"%s\"\n", strcmp(result, "") == 0 ? "OK" : "NG",
+	result);
 //     free(result);
 
 //     return (0);
