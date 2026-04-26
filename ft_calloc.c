@@ -40,7 +40,7 @@ void	*ft_calloc(size_t count, size_t size)
 // 	int i = 0;
 //     while(i < 5)
 // 	{
-//         if (arr_ft[i] != 0) 
+//         if (arr_ft[i] != 0)
 // 			is_zero = 0;
 // 		i++;
 //     }
@@ -61,15 +61,15 @@ void	*ft_calloc(size_t count, size_t size)
 //     free(zero_ft);
 //     free(zero_std);
 
-//     return 0;
+//     return (0);
 // }
 =======
-	//     // 後片付け
-	//     free(arr_ft);
-	//     free(arr_std);
-	//     free(zero_ft);
-	//     free(zero_std);
+//     // 後片付け
+//     free(arr_ft);
+//     free(arr_std);
+//     free(zero_ft);
+//     free(zero_std);
 
-	//     return (0);
-	// }
+//     return (0);
+// }
 >>>>>>> bc254282c47f2f3ca50ab76c828b5303f68830f3
