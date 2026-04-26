@@ -6,11 +6,20 @@
 /*   By: ksaotome <ksaotome@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 23:15:58 by ksaotome          #+#    #+#             */
-/*   Updated: 2026/04/26 15:55:51 by ksaotome         ###   ########.fr       */
+/*   Updated: 2026/04/26 16:07:20 by ksaotome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+static int	sign_check(int sign);
+
+static int	sign_check(int sign)
+{
+	if (sign == 1)
+		return (-1);
+	return (0);
+}
 
 int	ft_atoi(const char *str)
 {
@@ -20,6 +29,7 @@ int	ft_atoi(const char *str)
 
 	sign = 1;
 	result = 0;
+	prev_result = 0;
 	while (*str == ' ' || (*str >= 9 && *str <= 13))
 		str++;
 	if (*str == '+' || *str == '-')
@@ -32,13 +42,8 @@ int	ft_atoi(const char *str)
 	{
 		prev_result = result;
 		result = result * 10 + (*str - '0');
-		if (result < 0 || result < prev_result)
-		{
-			if (sign == 1)
-				return (-1);
-			else
-				return (0);
-		}
+		if (result < prev_result)
+			return (sign_check(sign));
 		str++;
 	}
 	return (sign * result);
