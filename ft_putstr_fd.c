@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ksaotome <ksaotome@student.42.ja>          +#+  +:+       +#+        */
+/*   By: ksaotome <ksaotome@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/22 13:37:20 by ksaotome          #+#    #+#             */
-/*   Updated: 2026/04/22 13:53:25 by ksaotome         ###   ########.fr       */
+/*   Updated: 2026/04/28 20:43:10 by ksaotome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,3 +21,16 @@ void	ft_putstr_fd(char *s, int fd)
 	len = ft_strlen(s);
 	write(fd, s, len);
 }
+
+// int	main(void)
+// {
+// 	ft_putstr_fd("a", 1);
+// 	printf("\n");
+// 	ft_putstr_fd("abc", 1);
+// 	printf("\n");
+// 	ft_putstr_fd("", 1);
+// 	printf("\n");
+// 	ft_putstr_fd("a\nb           c", 1);
+// 	printf("\n");
+// 	ft_putstr_fd("a", 2);
+// }
