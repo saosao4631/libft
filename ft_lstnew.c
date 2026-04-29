@@ -40,4 +40,3 @@ t_list	*ft_lstnew(void *content)
 // 	printf("node3 content: %s\n", (char *)node3->content);
 // 	return (0);
 // }
-
