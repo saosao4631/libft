@@ -6,7 +6,7 @@
 /*   By: ksaotome <ksaotome@student.42.ja>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/22 14:46:36 by ksaotome          #+#    #+#             */
-/*   Updated: 2026/04/22 14:46:41 by ksaotome         ###   ########.fr       */
+/*   Updated: 2026/04/29 15:51:43 by ksaotome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,3 +22,8 @@ void	ft_lstiter(t_list *lst, void (*f)(void *))
 		lst = lst->next;
 	}
 }
+
+// void	print_content(void *content)
+// {
+// 	printf("%s\n", (char *)content);
+// }
