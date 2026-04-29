@@ -24,15 +24,12 @@ $(OUTDIR)/%.o: %.c
 	@mkdir -p $(@D)
 	$(CC) $(CFLAGS) $(CPPFLAGS) -c $< -o $@
 
-test: $(NAME_A)
-	$(CC) $(CFLAGS) test.c -L. -lft -o test_out && ./test_out
-
 clean:
 	$(RM) $(RMFLAGS) $(OUTDIR)
 
 fclean: clean
-	$(RM) $(NAME_A)
+	$(RM) -f $(NAME_A)
 
 re: fclean all
 
-.PHONY: all clean fclean re
+.PHONY: all test clean fclean re

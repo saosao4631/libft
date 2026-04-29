@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ksaotome <ksaotome@student.42.ja>          +#+  +:+       +#+        */
+/*   By: ksaotome <ksaotome@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 22:56:21 by ksaotome          #+#    #+#             */
-/*   Updated: 2026/04/20 22:56:29 by ksaotome         ###   ########.fr       */
+/*   Updated: 2026/04/25 18:21:00 by ksaotome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,16 @@ int	ft_toupper(int c)
 		return (c - ('a' - 'A'));
 	return (c);
 }
+
+// int	main(void)
+// {
+// 	int	c[11] = {'a', 'A', 'z', 'Z', '\0', '`', '{', '@', '[', '1', ' '};
+// 	int	i = 0;
+
+// 	while(i < 11)
+// 	{
+// 		printf("%c\n", ft_toupper(c[i]));
+// 		i++;
+// 	}
+// 	return (0);
+// }

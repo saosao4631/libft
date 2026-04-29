@@ -3,18 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ksaotome <ksaotome@student.42.ja>          +#+  +:+       +#+        */
+/*   By: ksaotome <ksaotome@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/22 13:00:52 by ksaotome          #+#    #+#             */
-/*   Updated: 2026/04/25 11:08:37 by ksaotome         ###   ########.fr       */
+/*   Updated: 2026/04/28 21:08:52 by ksaotome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int	count_num(int n);
-
-static int	count_num(int n)
+static int	count_num(long n)
 {
 	int	cnt;
 
@@ -38,7 +36,7 @@ char	*ft_itoa(int n)
 	long	num;
 
 	num = n;
-	len = count_num(n);
+	len = count_num(num);
 	str = (char *)malloc(len + 1);
 	if (!str)
 		return (NULL);
@@ -48,12 +46,60 @@ char	*ft_itoa(int n)
 		str[0] = '-';
 		num *= -1;
 	}
-	else if (num == 0)
+	if (num == 0)
 		str[0] = '0';
-	while (num)
+	while (num > 0)
 	{
-		str[--len] = (num % 10) + '0';
+		str[len - 1] = (num % 10) + '0';
 		num /= 10;
+		len--;
 	}
 	return (str);
 }
+
+// int	main(void)
+// {
+// 	char	*result;
+
+// 	result = ft_itoa(42);
+// 	printf("通常        => \"%s\"\n", result);
+// 	free(result);
+
+// 	result = ft_itoa(-42);
+// 	printf("負の数      => \"%s\"\n", result);
+// 	free(result);
+
+// 	result = ft_itoa(0);
+// 	printf("ゼロ        => \"%s\"\n", result);
+// 	free(result);
+
+// 	result = ft_itoa(7);
+// 	printf("1桁         => \"%s\"\n", result);
+// 	free(result);
+
+// 	result = ft_itoa(-7);
+// 	printf("負の1桁     => \"%s\"\n", result);
+// 	free(result);
+
+// 	result = ft_itoa(-1);
+// 	printf("-1          => \"%s\"\n", result);
+// 	free(result);
+
+// 	result = ft_itoa(2147483647);
+// 	printf("INT_MAX     => \"%s\"\n", result);
+// 	free(result);
+
+// 	result = ft_itoa(-2147483648);
+// 	printf("INT_MIN     => \"%s\"\n", result);
+// 	free(result);
+
+// 	result = ft_itoa(1000);
+// 	printf("10の倍数    => \"%s\"\n", result);
+// 	free(result);
+
+// 	result = ft_itoa(-1000);
+// 	printf("負の10の倍数 => \"%s\"\n", result);
+// 	free(result);
+
+// 	return (0);
+// }

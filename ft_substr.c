@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ksaotome <ksaotome@student.42.ja>          +#+  +:+       +#+        */
+/*   By: ksaotome <ksaotome@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 00:10:28 by ksaotome          #+#    #+#             */
-/*   Updated: 2026/04/21 00:10:37 by ksaotome         ###   ########.fr       */
+/*   Updated: 2026/04/28 21:35:55 by ksaotome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,49 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	ft_strlcpy(substr, s + start, len + 1);
 	return (substr);
 }
+
+// int	main(void)
+// {
+// 	char	*result;
+
+// 	result = ft_substr("Hello, World!", 0, 5);
+// 	printf("通常            => \"%s\"\n", result);
+// 	free(result);
+
+// 	result = ft_substr("Hello, World!", 7, 5);
+// 	printf("途中から        => \"%s\"\n", result);
+// 	free(result);
+
+// 	result = ft_substr("Hello", 1, 1);
+// 	printf("1文字           => \"%s\"\n", result);
+// 	free(result);
+
+// 	result = ft_substr("Hello", 0, 100);
+// 	printf("lenが長すぎる   => \"%s\"\n", result);
+// 	free(result);
+
+// 	result = ft_substr("Hello", 3, 100);
+// 	printf("lenが超過       => \"%s\"\n", result);
+// 	free(result);
+
+// 	result = ft_substr("Hello", 5, 3);
+// 	printf("startが末尾     => \"%s\"\n", result);
+// 	free(result);
+
+// 	result = ft_substr("Hello", 99, 3);
+// 	printf("startが範囲外   => \"%s\"\n", result);
+// 	free(result);
+
+// 	result = ft_substr("Hello", 0, 0);
+// 	printf("len=0           => \"%s\"\n", result);
+// 	free(result);
+
+// 	result = ft_substr(NULL, 0, 5);
+// 	printf("s=NULL          => %s\n", result == NULL ? "NULL" : result);
+
+// 	result = ft_substr("", 0, 5);
+// 	printf("s=空文字列      => \"%s\"\n", result);
+// 	free(result);
+
+// 	return (0);
+// }

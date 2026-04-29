@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ksaotome <ksaotome@student.42.ja>          +#+  +:+       +#+        */
+/*   By: ksaotome <ksaotome@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 01:57:23 by ksaotome          #+#    #+#             */
-/*   Updated: 2026/04/20 02:01:27 by ksaotome         ###   ########.fr       */
+/*   Updated: 2026/04/25 13:35:30 by ksaotome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,3 +21,23 @@ int	ft_isprint(int c)
 		flag = 1;
 	return (flag);
 }
+
+// int	main(void)
+// {
+// 	int	c[7] = {'A', 'z', '2', 1, ' ', ',', '\0'};
+// 	int	i;
+
+// 	i = 0;
+// 	while(i < 7)
+// 	{
+// 		if(ft_isprint(c[i]))
+// 		{
+// 			printf("%iは表示文字です\n",c[i]);
+// 		}
+// 		else
+// 		{
+// 			printf("%iは表示文字ではない\n",c[i]);
+// 		}
+// 		i++;
+// 	}
+// }

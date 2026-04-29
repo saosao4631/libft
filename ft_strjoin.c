@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ksaotome <ksaotome@student.42.ja>          +#+  +:+       +#+        */
+/*   By: ksaotome <ksaotome@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/22 12:28:10 by ksaotome          #+#    #+#             */
-/*   Updated: 2026/04/22 13:49:52 by ksaotome         ###   ########.fr       */
+/*   Updated: 2026/04/28 21:23:58 by ksaotome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,43 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	ft_strlcat(res, s2, len1 + len2 + 1);
 	return (res);
 }
+
+// int	main(void)
+// {
+// 	char	*result;
+
+// 	result = ft_strjoin("Hello, ", "World!");
+// 	printf("通常          => \"%s\"\n", result);
+// 	free(result);
+
+// 	result = ft_strjoin("", "");
+// 	printf("両方空文字列  => \"%s\"\n", result);
+// 	free(result);
+
+// 	result = ft_strjoin("", "World!");
+// 	printf("s1が空文字列  => \"%s\"\n", result);
+// 	free(result);
+
+// 	result = ft_strjoin("Hello, ", "");
+// 	printf("s2が空文字列  => \"%s\"\n", result);
+// 	free(result);
+
+// 	result = ft_strjoin(NULL, "World!");
+// 	printf("s1がNULL      => %s\n", result == NULL ? "NULL" : result);
+
+// 	result = ft_strjoin("Hello, ", NULL);
+// 	printf("s2がNULL      => %s\n", result == NULL ? "NULL" : result);
+
+// 	result = ft_strjoin(NULL, NULL);
+// 	printf("両方NULL      => %s\n", result == NULL ? "NULL" : result);
+
+// 	result = ft_strjoin("abc", "123");
+// 	printf("数字を含む    => \"%s\"\n", result);
+// 	free(result);
+
+// 	result = ft_strjoin("a", "b");
+// 	printf("1文字同士     => \"%s\"\n", result);
+// 	free(result);
+
+// 	return (0);
+// }
