@@ -1,11 +1,9 @@
-*This project has been created as part of the 42 curriculum by tsito.*
+*TThis project has been created as part of the 42 curriculum by ksaotome.*
 
 # libft
 
 ## Description
 - 42 curriculum
-
-### Mandatory part
 
 | 項目 | 内容 |
 |------|------|
@@ -16,7 +14,7 @@
 | **Libft authorized** | n/a（libft 自身の課題のため） |
 | **Description** | 自分自身のライブラリを作成する：以降のカリキュラムで役立つ関数群のコレクション |
 
-### 技術的要件Technical considerations
+### 要件
 
 - グローバル変数は禁止
 - 補助関数は`static`で同一ファイル内に閉じる
@@ -120,6 +118,10 @@ typedef struct s_list
 ### 公式ドキュメント・リファレンス
 
 - [usatile/libft-tester-tokyo](https://github.com/usatie/libft-tester-tokyo) — テストツール
+- [だえうホームページ](https://daeudaeu.com/list-structure/) — リスト構造説明サイト
+- [tsito.me](https://tsito.me/blog/2026-03-19) — Gitでの環境構築参考ブログ
+- [Qiita](https://qiita.com/lightfel/items/04d293ccf2b2184ddc26) — 関数ポインタ説明ブログ
+
 
 ### AI の活用について
 
