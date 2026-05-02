@@ -119,7 +119,6 @@ typedef struct s_list
 
 - [usatile/libft-tester-tokyo](https://github.com/usatie/libft-tester-tokyo) — テストツール
 - [だえうホームページ](https://daeudaeu.com/list-structure/) — リスト構造説明サイト
-- [tsito.me](https://tsito.me/blog/2026-03-19) — Gitでの環境構築参考ブログ
 - [Qiita](https://qiita.com/lightfel/items/04d293ccf2b2184ddc26) — 関数ポインタ説明ブログ
 
 
