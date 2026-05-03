@@ -1,4 +1,4 @@
-*TThis project has been created as part of the 42 curriculum by ksaotome.*
+*This project has been created as part of the 42 curriculum by ksaotome.*
 
 # libft
 
