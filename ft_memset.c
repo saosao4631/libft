@@ -75,5 +75,5 @@ void	*ft_memset(void *b, int c, size_t len)
 // 	printf("ft_memset の結果: %s\n", str7);
 //     printf("memset の結果: %s\n", str8);
 
-//     return 0;
+//     return (0);
 // }

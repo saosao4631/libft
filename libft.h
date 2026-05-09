@@ -16,10 +16,10 @@
 # include <limits.h>
 # include <stddef.h>
 # include <stdint.h>
+# include <stdio.h>
 # include <stdlib.h>
 # include <string.h>
 # include <unistd.h>
-# include <stdio.h>
 
 int					ft_isalpha(int c);
 int					ft_isdigit(int c);

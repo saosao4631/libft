@@ -78,8 +78,8 @@ int	ft_atoi(const char *str)
 // 		i++;
 // 	}
 
-// 	return 0;
+// 	return (0);
 // }
 
-	// while (*str == ' ' || *str == '\t' || *str == '\n' || *str == '\v'
-	// 	|| *str == '\f' || *str == '\r')
+// while (*str == ' ' || *str == '\t' || *str == '\n' || *str == '\v'
+// 	|| *str == '\f' || *str == '\r')

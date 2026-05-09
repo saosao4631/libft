@@ -40,7 +40,7 @@ void	*ft_calloc(size_t count, size_t size)
 // 	int i = 0;
 //     while(i < 5)
 // 	{
-//         if (arr_ft[i] != 0) 
+//         if (arr_ft[i] != 0)
 // 			is_zero = 0;
 // 		i++;
 //     }
@@ -65,8 +65,8 @@ void	*ft_calloc(size_t count, size_t size)
 // 	// 環境依存の挙動（malloc(0)に近い挙動など）に陥ることがあります。
 
 // 	// 実装の差異: calloc の仕様（C99/C11）では「オーバーフロー時はエラー（NULL）」を推奨していますが、
-// 	// OSやコンパイラのバージョンによっては、オーバーフロー後の計算結果（非常に小さな値）で malloc 
+// 	// OSやコンパイラのバージョンによっては、オーバーフロー後の計算結果（非常に小さな値）で malloc
 // 	// を通してしまう「古い挙動」が残っている場合もあります。
 
-//     return 0;
+//     return (0);
 // }
