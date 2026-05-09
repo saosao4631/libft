@@ -45,5 +45,5 @@ char	*ft_strrchr(const char *s, int c)
 // 	printf("t: %s\n", ft_strrchr(d, 't'));
 // 	printf("t: %s\n", strrchr(d, 't'));
 
-// 	return (0);
+// 	return 0;
 // }

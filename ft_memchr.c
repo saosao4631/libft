@@ -53,5 +53,5 @@ void	*ft_memchr(const void *s, int c, size_t n)
 //     printf("ft_memchr: %s\n", ans_ft ? ans_ft : "NULL");
 //     printf("本家     : %s\n\n", ans_std ? ans_std : "NULL");
 
-//     return (0);
+//     return 0;
 // }

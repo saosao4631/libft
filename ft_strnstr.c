@@ -54,5 +54,5 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 // 	ans_ft = ft_strnstr(hay2, "aabc", 10);
 // 	printf("ft_strnstr: %s\n", ans_ft);
 
-// 	return (0);
+// 	return 0;
 // }

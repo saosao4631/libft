@@ -40,6 +40,6 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 // 	ft_strlcpy(dst2, src, 0);
 // 	printf("結果: %s\n", dst2);
 
-// 	return (0);
+// 	return 0;
 // 	// strlcpyはBSD系（macOSなど）の拡張機能のため本家断念
 // }

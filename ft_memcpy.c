@@ -72,5 +72,5 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 // 	printf("memcpy の結果: %s\n", dst6);
 
 // 	// nullを渡すとセグフォ落ち
-// 	return (0);
+// 	return 0;
 // }

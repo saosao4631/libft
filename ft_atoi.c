@@ -6,7 +6,7 @@
 /*   By: ksaotome <ksaotome@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 23:15:58 by ksaotome          #+#    #+#             */
-/*   Updated: 2026/04/26 16:07:20 by ksaotome         ###   ########.fr       */
+/*   Updated: 2026/04/26 16:08:12 by ksaotome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,5 +78,8 @@ int	ft_atoi(const char *str)
 // 		i++;
 // 	}
 
-// 	return (0);
+// 	return 0;
 // }
+
+	// while (*str == ' ' || *str == '\t' || *str == '\n' || *str == '\v'
+	// 	|| *str == '\f' || *str == '\r')

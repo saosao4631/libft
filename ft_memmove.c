@@ -6,7 +6,7 @@
 /*   By: ksaotome <ksaotome@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 21:39:28 by ksaotome          #+#    #+#             */
-/*   Updated: 2026/04/26 20:42:29 by ksaotome         ###   ########.fr       */
+/*   Updated: 2026/05/07 20:20:14 by ksaotome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	*ft_memmove(void *dst, const void *src, size_t n)
 	const unsigned char	*s;
 
 	d = (unsigned char *)dst;
-	s = (unsigned char *)src;
+	s = (const unsigned char *)src;
 	if (d < s)
 	{
 		while (n--)
@@ -58,5 +58,5 @@ void	*ft_memmove(void *dst, const void *src, size_t n)
 //     printf("ft_memmoveの結果: %s\n", str_mov2);
 //     printf("本家memmove の結果: %s\n", str_std2);
 
-//     return (0);
+//     return 0;
 // }

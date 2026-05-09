@@ -6,7 +6,7 @@
 /*   By: ksaotome <ksaotome@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 23:58:09 by ksaotome          #+#    #+#             */
-/*   Updated: 2026/04/28 21:14:47 by ksaotome         ###   ########.fr       */
+/*   Updated: 2026/04/28 21:15:14 by ksaotome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ char	*ft_strdup(const char *s1)
 // 		" ",
 // 		"1234567890",
 // 		"!@#$%^&*()",
-// 		"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+// 		"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
 // 		"Line\nBreak",
 // 		NULL
 // 	};

@@ -29,5 +29,5 @@ int	ft_tolower(int c)
 // 		printf("%c\n", ft_tolower(c[i]));
 // 		i++;
 // 	}
-// 	return (0);
+// 	return 0;
 // }

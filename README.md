@@ -39,7 +39,8 @@
 ```bash
 make
 ```
-
+| **make方法** | 挙動 | 
+|---|---|
 | `make` / `make all` | `libft.a` をビルド |
 | `make clean` | オブジェクトファイル（`.out/`）を削除 |
 | `make fclean` | `libft.a` とオブジェクトファイルを削除 |

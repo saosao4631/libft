@@ -28,5 +28,5 @@ size_t	ft_strlen(const char *s)
 
 // 	printf("文字列の長さは：%zu\n", ft_strlen(str));
 // 	// ld long  lu 符号なしlong z size_tサイズ合わせ u 符号なし
-// 	return (0);
+// 	return 0;
 // }
